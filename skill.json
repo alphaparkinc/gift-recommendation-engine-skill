@@ -1,0 +1,48 @@
+{
+  "name": "gift-recommendation-engine-skill",
+  "version": "1.0.0",
+  "description": "Generate personalized gift recommendations based on recipient profile, budget, occasion, and interests for e-commerce stores.",
+  "author": "alphaparkinc",
+  "category": "merchandising",
+  "tags": [
+    "gift",
+    "recommendation",
+    "personalization",
+    "occasion",
+    "e-commerce"
+  ],
+  "inputs": {
+    "recipient": {
+      "type": "object",
+      "description": "Recipient profile: age, gender, interests, relationship."
+    },
+    "occasion": {
+      "type": "string",
+      "description": "Gift occasion (birthday, wedding, holiday, graduation, anniversary)."
+    },
+    "budget_usd": {
+      "type": "number",
+      "description": "Gift budget in USD."
+    },
+    "product_catalog": {
+      "type": "array",
+      "description": "Available products: [{id, name, price, category, tags}]."
+    }
+  },
+  "outputs": {
+    "recommendations": {
+      "type": "array",
+      "description": "Ranked gift recommendations with match scores and reasons."
+    },
+    "gift_message": {
+      "type": "string",
+      "description": "Suggested personalized gift message."
+    },
+    "gift_wrapping_suggestion": {
+      "type": "string",
+      "description": "Wrapping style suggestion for the occasion."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
