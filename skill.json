@@ -1,8 +1,8 @@
 {
   "name": "gift-recommendation-engine-skill",
   "version": "1.0.0",
-  "description": "Generate personalized gift recommendations based on recipient profile, budget, occasion, and interests for e-commerce stores.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Generate personalized gift recommendations based on recipient profile, budget, occasion, and interests for e-commerce stores.",
+  "author": "genpark",
   "category": "merchandising",
   "tags": [
     "gift",
