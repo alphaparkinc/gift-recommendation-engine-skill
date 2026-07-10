@@ -1,4 +1,4 @@
-# gift-recommendation-engine-skill
+# genpark-gift-recommendation-engine-skill
 
 > **GenPark AI Agent Skill** -- Generate personalized gift recommendations based on recipient profile, budget, occasion, and interests.
 
